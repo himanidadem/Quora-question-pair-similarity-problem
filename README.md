@@ -55,7 +55,6 @@ i derived some features from questions like no of common words, word share and s
   - <b>token_sort_ratio</b> = sorting the tokens in string and then scoring fuzz_ratio.
   - <b>longest_substr_ratio</b> = len(longest common substring) / (min(len(q1_tokens), len(q2_tokens))
 - ##### Extracted Tf-Idf features for this combained question1 and question2 and got 1,2,3 gram features with Train data. Transformed test data into same vector space. 
-- ##### Got [Word Movers Distance](http://proceedings.mlr.press/v37/kusnerb15.pdf) with pretrained glove word vectors. 
 - ##### From Pretrained glove word vectors got average word vector for question1 and question2. With this avg word vector got below distances. 
   - <b>Cosine distance</b>
   - <b>Cityblock distance</b>
